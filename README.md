@@ -1,146 +1,187 @@
-# 🎵 Spotify Tracks Data Analysis
+# 📊 Data Analysis Projects
 
-A data analysis project on Spotify tracks using **Python, Pandas, NumPy, and Matplotlib**.
+This repository contains a collection of data analysis projects built using **Python, Pandas, NumPy, Matplotlib, and Jupyter Notebook**.
 
-The project explores Spotify audio features, popularity, genres, artists, track duration, and relationships between different audio characteristics.
+The projects focus on exploring datasets, cleaning data, performing analysis, finding patterns, and creating visualizations.
 
-## 📌 Project Overview
+---
 
-The goal of this project is to clean, analyze, and visualize a Spotify tracks dataset to discover useful patterns and insights.
+## 📁 Projects
 
-### Dataset
+### 🎵 1. Spotify Tracks Data Analysis
 
-Spotify Tracks Dataset — Audio Features
+Analysis of a Spotify tracks dataset containing **114,000 tracks** and multiple audio features.
 
-The dataset contains information such as:
+**Dataset includes:**
 
-* Track name
-* Artist
-* Genre
+* Track name and artist
 * Popularity
-* Track duration
-* Energy
+* Duration
 * Danceability
+* Energy
 * Loudness
-* Tempo
 * Acousticness
+* Instrumentalness
+* Tempo
 * Valence
+* Genre
 * Explicit content
+
+**Analysis performed:**
+
+* Data cleaning and duplicate handling
+* Missing-value checking
+* Popularity analysis
+* Genre-wise popularity
+* Artist-wise track counts
+* Danceability analysis
+* Energy and danceability comparison
+* Explicit vs non-explicit tracks
+* Most popular track by genre
+* Track duration analysis
+* NumPy statistical analysis
+* Data visualization using Matplotlib
+
+**Notebook:** `spotify-feature-extraction-project.ipynb`
+
+---
+
+### 🌍 2. Countries Data Analysis
+
+Exploration and analysis of country-related data using Pandas.
+
+**Topics covered:**
+
+* Dataset exploration
+* Data cleaning
+* Filtering and sorting
+* Statistical analysis
+* Country-wise comparisons
+* Data visualization
+
+**Notebook:** `countries.ipynb`
+
+**Dataset:** `Countries.csv`
+
+---
+
+### 🎌 3. Anime Data Analysis
+
+Analysis of an anime dataset using Python and Pandas.
+
+**Topics covered:**
+
+* Dataset exploration
+* Data cleaning
+* Filtering and sorting
+* Anime-related statistics
+* Feature analysis
+* Data visualization
+
+**Notebook:** `feature-extraction-anime.ipynb`
+
+**Dataset:** `anime.csv`
+
+---
+
+### 🏏 4. IPL Data Analysis
+
+Analysis of IPL match data using Python and Pandas.
+
+**Topics covered:**
+
+* Match data exploration
+* Team and match analysis
+* Filtering and sorting
+* Statistical analysis
+* Data-based observations
+
+**Notebook:** `ipl.ipynb`
+
+**Dataset:** `ipl_2026_matches.csv`
+
+---
 
 ## 🛠️ Technologies Used
 
 * **Python**
-* **Pandas** — Data cleaning and analysis
-* **NumPy** — Numerical calculations
-* **Matplotlib** — Data visualization
-
-## 🔍 Project Workflow
-
-### 1. Data Cleaning
-
-* Checked missing values
-* Removed duplicate records
-* Checked data types
-* Validated popularity values
-* Converted track duration from milliseconds to minutes
-* Identified potential outliers using IQR
-
-### 2. Data Analysis
-
-Performed analysis such as:
-
-* Top 10 most popular tracks
-* Average popularity by genre
-* Artists with the most tracks
-* Genres with highest average danceability
-* Track count by genre
-* Explicit vs non-explicit tracks
-* Average energy and danceability by genre
-* Popular tracks longer than 5 minutes
-* Artists with at least 20 tracks and highest average popularity
-* Most popular track from each genre
-* Genres with shortest average track duration
-
-### 3. NumPy Analysis
-
-Used NumPy to calculate:
-
-* Mean
-* Median
-* Standard deviation
-* Minimum and maximum
-* Percentiles
-* Min-Max normalization
-* Correlation between energy and danceability
-
-### 4. Data Visualization
-
-Created visualizations using Matplotlib:
-
-* Popularity distribution histogram
-* Top 10 genres by average popularity
-* Energy vs Danceability scatter plot
-* Track duration distribution histogram
-
-## 📊 Sample Visualizations
-
-The project generates visualizations directly from the dataset using Matplotlib.
-
-## 📁 Project Structure
-
-```text
-spotify-analysis/
-│
-├── spotify_analysis.py
-├── spotify-tracks-dataset-clean.csv
-└── README.md
-```
-
-## ▶️ How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone <your-repository-url>
-cd spotify-analysis
-```
-
-### 2. Install dependencies
-
-```bash
-pip install pandas numpy matplotlib
-```
-
-### 3. Run the project
-
-```bash
-python spotify_analysis.py
-```
-
-## 💡 Key Learning Outcomes
-
-Through this project, I practiced:
-
-* Data cleaning with Pandas
-* GroupBy and aggregation
-* Sorting and filtering datasets
-* Working with NumPy arrays
-* Statistical calculations
-* Correlation analysis
-* Data visualization with Matplotlib
-* Extracting insights from real-world datasets
-
-## 🚀 Future Improvements
-
-* Add more advanced visualizations
-* Build an interactive dashboard
-* Perform deeper statistical analysis
-* Explore machine learning applications on Spotify data
-
-## 📚 Dataset Source
-
-Kaggle — Spotify Tracks Dataset: Audio Features
+* **Pandas**
+* **NumPy**
+* **Matplotlib**
+* **Jupyter Notebook**
 
 ---
 
-**Built as a Python data analysis project to practice Pandas, NumPy, and Matplotlib.**
+## 🔄 General Workflow
+
+```text
+Dataset
+   ↓
+Data Exploration
+   ↓
+Data Cleaning
+   ↓
+Data Processing
+   ↓
+Statistical Analysis
+   ↓
+Visualization
+   ↓
+Insights
+```
+
+---
+
+## 📂 Repository Structure
+
+```text
+Spotify-feature-Extraction-/
+│
+├── spotify-feature-extraction-project.ipynb
+├── spotify-tracks-dataset-detailed.csv
+│
+├── countries.ipynb
+├── Countries.csv
+│
+├── feature-extraction-anime.ipynb
+├── anime.csv
+│
+├── ipl.ipynb
+├── ipl_2026_matches.csv
+│
+└── README.md
+```
+
+---
+
+## 🎯 Learning Objectives
+
+Through these projects, I am practicing:
+
+* Data cleaning with Pandas
+* Data manipulation and filtering
+* GroupBy and aggregation
+* Sorting and ranking
+* NumPy numerical operations
+* Statistical analysis
+* Data visualization
+* Extracting meaningful insights from datasets
+* Working with real-world datasets
+
+---
+
+## 🚀 Future Improvements
+
+* Add more visualizations
+* Perform deeper statistical analysis
+* Explore correlations between features
+* Add interactive dashboards
+* Apply basic machine learning techniques to selected datasets
+
+---
+
+## 👩‍💻 Author
+
+**Kavya Maheshwari**
+
+This repository is part of my learning journey in **Python, Data Analysis, and Data Visualization**.
